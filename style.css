@@ -39,7 +39,7 @@ nav {
   align-items: center;
   height: 17vh;
   color: black;
-  background-color: rgb(85, 85, 85);
+  background-color: rgb(154, 153, 153);
 }
 
 .nav-links {
@@ -315,7 +315,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: rgb(133, 131, 131);
+  background-color: rgb(154, 153, 153);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -411,9 +411,9 @@ article .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  flex-wrap: wrap; 
   gap: 2rem;
-  margin: 2rem auto 3rem auto; /* top: 2rem, bottom: 3rem for footer spacing */
+  margin: 2rem auto 3rem auto; 
 }
 
 .contact-info-container {
@@ -426,15 +426,13 @@ article .icon {
   background-color: rgb(250, 250, 250);
 }
 
-/* Add this to ensure the entire section has bottom padding */
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: auto; /* let content define height */
-  padding-bottom: 3rem; /* space before footer */
+  height: auto; 
+  padding-bottom: 3rem; 
 }
-
 
 
 /* FOOTER SECTION */
